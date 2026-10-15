@@ -1,0 +1,17 @@
+{
+  "name": "wordpress-mcp/wp-mcp-content",
+  "description": "WordPress MCP Content Bridge — abilities + custom MCP server",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=8.1"
+  },
+  "suggest": {
+    "wordpress/mcp-adapter": "Official WordPress MCP Adapter to expose abilities as MCP tools"
+  },
+  "autoload": {
+    "classmap": [
+      "includes/"
+    ]
+  }
+}

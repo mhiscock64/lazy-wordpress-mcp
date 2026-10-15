@@ -1,0 +1,7 @@
+{
+  "transport": "http",
+  "url": "http://127.0.0.1:3847/mcp",
+  "headers": {
+    "Authorization": "Bearer YOUR_MCP_HTTP_AUTH_TOKEN"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "wordpress": {
+      "command": "node",
+      "args": [
+        "/ABS/PATH/TO/wordpress-mcp/standalone/dist/index.js"
+      ],
+      "env": {
+        "MCP_TRANSPORT": "stdio",
+        "WP_BASE_URL": "https://your-site.example",
+        "WP_USERNAME": "mcp-editor",
+        "WP_APPLICATION_PASSWORD": "xxxx xxxx xxxx xxxx xxxx xxxx"
+      }
+    }
+  }
+}

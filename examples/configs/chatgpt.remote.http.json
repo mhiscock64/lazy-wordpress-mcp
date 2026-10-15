@@ -1,0 +1,8 @@
+{
+  "name": "wordpress-mcp",
+  "url": "https://mcp.your-site.example/mcp",
+  "headers": {
+    "Authorization": "Bearer YOUR_MCP_HTTP_AUTH_TOKEN"
+  },
+  "notes": "Point at standalone Streamable HTTP behind TLS, or plugin /wp-json/wp-mcp-content/mcp with Application Password Basic auth."
+}
